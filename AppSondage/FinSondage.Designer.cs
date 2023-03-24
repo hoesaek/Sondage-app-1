@@ -28,90 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FinSondage));
-            this.pnlBotD = new System.Windows.Forms.Panel();
-            this.pnlinBotD = new System.Windows.Forms.Panel();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.TimeDebutNouveauSond = new System.Windows.Forms.Timer(this.components);
-            this.pnlBotD.SuspendLayout();
-            this.pnlinBotD.SuspendLayout();
-            this.SuspendLayout();
+            infoSondage = new Label();
+            infocomplementaire = new Label();
+            label1 = new Label();
+            SuspendLayout();
             // 
-            // pnlBotD
+            // infoSondage
             // 
-            this.pnlBotD.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlBotD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(67)))));
-            this.pnlBotD.Controls.Add(this.pnlinBotD);
-            this.pnlBotD.Location = new System.Drawing.Point(22, 36);
-            this.pnlBotD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pnlBotD.Name = "pnlBotD";
-            this.pnlBotD.Size = new System.Drawing.Size(629, 333);
-            this.pnlBotD.TabIndex = 16;
+            infoSondage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            infoSondage.AutoSize = true;
+            infoSondage.Font = new Font("Yu Gothic", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            infoSondage.Location = new Point(126, 111);
+            infoSondage.Name = "infoSondage";
+            infoSondage.Size = new Size(434, 43);
+            infoSondage.TabIndex = 0;
+            infoSondage.Text = "Aucun sondage en cours...";
+            infoSondage.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pnlinBotD
+            // infocomplementaire
             // 
-            this.pnlinBotD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlinBotD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(188)))), ((int)(((byte)(96)))));
-            this.pnlinBotD.Controls.Add(this.lblMessage);
-            this.pnlinBotD.Location = new System.Drawing.Point(-7, 76);
-            this.pnlinBotD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pnlinBotD.Name = "pnlinBotD";
-            this.pnlinBotD.Size = new System.Drawing.Size(646, 184);
-            this.pnlinBotD.TabIndex = 7;
+            infocomplementaire.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            infocomplementaire.AutoSize = true;
+            infocomplementaire.Location = new Point(109, 196);
+            infocomplementaire.Name = "infocomplementaire";
+            infocomplementaire.Size = new Size(491, 20);
+            infocomplementaire.TabIndex = 1;
+            infocomplementaire.Text = "Nous sommes actuellement en cours de creation d'un nouveau sondage !";
+            infocomplementaire.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // lblMessage
+            // label1
             // 
-            this.lblMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMessage.ForeColor = System.Drawing.Color.White;
-            this.lblMessage.Location = new System.Drawing.Point(7, 0);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(626, 184);
-            this.lblMessage.TabIndex = 0;
-            this.lblMessage.Text = "Le sondage est à présent terminé  \r\nRevenez lorsqu\'un sondage sera chargé  !!";
-            this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblMessage.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // TimeDebutNouveauSond
-            // 
-            this.TimeDebutNouveauSond.Interval = 1000;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.AutoSize = true;
+            label1.Location = new Point(220, 227);
+            label1.Name = "label1";
+            label1.Size = new Size(218, 20);
+            label1.TabIndex = 2;
+            label1.Text = "Nous serons bientôt de retour !!";
             // 
             // FinSondage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(209)))), ((int)(((byte)(198)))));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(696, 439);
-            this.Controls.Add(this.pnlBotD);
-            this.Enabled = false;
-            this.HelpButton = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "FinSondage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FinSondage";
-            this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.FinSondage_HelpButtonClicked);
-            this.Load += new System.EventHandler(this.FinSondage_Load);
-            this.pnlBotD.ResumeLayout(false);
-            this.pnlinBotD.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(171, 209, 198);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(696, 439);
+            Controls.Add(label1);
+            Controls.Add(infocomplementaire);
+            Controls.Add(infoSondage);
+            Cursor = Cursors.WaitCursor;
+            Enabled = false;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            HelpButton = true;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
+            MinimizeBox = false;
+            Name = "FinSondage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "FinSondage";
+            TopMost = true;
+            WindowState = FormWindowState.Maximized;
+            HelpButtonClicked += FinSondage_HelpButtonClicked;
+            Load += FinSondage_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Panel pnlBotD;
-        private Panel pnlinBotD;
-        private Label lblMessage;
-        private System.Windows.Forms.Timer TimeDebutNouveauSond;
+        private Label infoSondage;
+        private Label infocomplementaire;
+        private Label label1;
     }
 }

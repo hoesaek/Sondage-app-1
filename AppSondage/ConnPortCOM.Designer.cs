@@ -29,256 +29,251 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConnPortCOM));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cbPB = new System.Windows.Forms.ComboBox();
-            this.cbSB = new System.Windows.Forms.ComboBox();
-            this.cbDB = new System.Windows.Forms.ComboBox();
-            this.cbBR = new System.Windows.Forms.ComboBox();
-            this.cbCOM = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnOpen = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.btnAnnuler = new System.Windows.Forms.Button();
-            this.btnSuivant = new System.Windows.Forms.Button();
-            this.lblOnOff = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.SuspendLayout();
+            groupBox1 = new GroupBox();
+            cbPB = new ComboBox();
+            cbSB = new ComboBox();
+            cbDB = new ComboBox();
+            cbBR = new ComboBox();
+            cbCOM = new ComboBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            groupBox2 = new GroupBox();
+            btnClose = new Button();
+            btnOpen = new Button();
+            progressBar1 = new ProgressBar();
+            btnAnnuler = new Button();
+            btnSuivant = new Button();
+            lblOnOff = new Label();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.cbPB);
-            this.groupBox1.Controls.Add(this.cbSB);
-            this.groupBox1.Controls.Add(this.cbDB);
-            this.groupBox1.Controls.Add(this.cbBR);
-            this.groupBox1.Controls.Add(this.cbCOM);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(10, 8);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Size = new System.Drawing.Size(201, 206);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Set Port COM";
+            groupBox1.Controls.Add(cbPB);
+            groupBox1.Controls.Add(cbSB);
+            groupBox1.Controls.Add(cbDB);
+            groupBox1.Controls.Add(cbBR);
+            groupBox1.Controls.Add(cbCOM);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Location = new Point(12, 135);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new Padding(0);
+            groupBox1.Size = new Size(230, 275);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Set Port COM";
             // 
             // cbPB
             // 
-            this.cbPB.FormattingEnabled = true;
-            this.cbPB.Items.AddRange(new object[] {
-            "None",
-            "Odd",
-            "Even"});
-            this.cbPB.Location = new System.Drawing.Point(69, 168);
-            this.cbPB.Name = "cbPB";
-            this.cbPB.Size = new System.Drawing.Size(111, 23);
-            this.cbPB.TabIndex = 9;
-            this.cbPB.Text = "None";
+            cbPB.FormattingEnabled = true;
+            cbPB.Items.AddRange(new object[] { "None", "Odd", "Even" });
+            cbPB.Location = new Point(79, 224);
+            cbPB.Margin = new Padding(3, 4, 3, 4);
+            cbPB.Name = "cbPB";
+            cbPB.Size = new Size(126, 28);
+            cbPB.TabIndex = 9;
+            cbPB.Text = "None";
             // 
             // cbSB
             // 
-            this.cbSB.ForeColor = System.Drawing.Color.Black;
-            this.cbSB.FormattingEnabled = true;
-            this.cbSB.Items.AddRange(new object[] {
-            "One",
-            "Two"});
-            this.cbSB.Location = new System.Drawing.Point(69, 133);
-            this.cbSB.Name = "cbSB";
-            this.cbSB.Size = new System.Drawing.Size(111, 23);
-            this.cbSB.TabIndex = 8;
-            this.cbSB.Text = "One";
+            cbSB.ForeColor = Color.Black;
+            cbSB.FormattingEnabled = true;
+            cbSB.Items.AddRange(new object[] { "One", "Two" });
+            cbSB.Location = new Point(79, 177);
+            cbSB.Margin = new Padding(3, 4, 3, 4);
+            cbSB.Name = "cbSB";
+            cbSB.Size = new Size(126, 28);
+            cbSB.TabIndex = 8;
+            cbSB.Text = "One";
             // 
             // cbDB
             // 
-            this.cbDB.ForeColor = System.Drawing.Color.Black;
-            this.cbDB.FormattingEnabled = true;
-            this.cbDB.Items.AddRange(new object[] {
-            "6",
-            "7",
-            "8"});
-            this.cbDB.Location = new System.Drawing.Point(69, 98);
-            this.cbDB.Name = "cbDB";
-            this.cbDB.Size = new System.Drawing.Size(111, 23);
-            this.cbDB.TabIndex = 7;
-            this.cbDB.Text = "8";
+            cbDB.ForeColor = Color.Black;
+            cbDB.FormattingEnabled = true;
+            cbDB.Items.AddRange(new object[] { "6", "7", "8" });
+            cbDB.Location = new Point(79, 131);
+            cbDB.Margin = new Padding(3, 4, 3, 4);
+            cbDB.Name = "cbDB";
+            cbDB.Size = new Size(126, 28);
+            cbDB.TabIndex = 7;
+            cbDB.Text = "8";
             // 
             // cbBR
             // 
-            this.cbBR.ForeColor = System.Drawing.Color.Black;
-            this.cbBR.FormattingEnabled = true;
-            this.cbBR.Items.AddRange(new object[] {
-            "110",
-            "300",
-            "600",
-            "1200",
-            "2400",
-            "4800",
-            "9600",
-            "14400",
-            "19200",
-            "38400"});
-            this.cbBR.Location = new System.Drawing.Point(69, 63);
-            this.cbBR.Name = "cbBR";
-            this.cbBR.Size = new System.Drawing.Size(111, 23);
-            this.cbBR.TabIndex = 6;
-            this.cbBR.Text = "9600";
-            this.cbBR.SelectedIndexChanged += new System.EventHandler(this.cbBR_SelectedIndexChanged);
+            cbBR.ForeColor = Color.Black;
+            cbBR.FormattingEnabled = true;
+            cbBR.Items.AddRange(new object[] { "110", "300", "600", "1200", "2400", "4800", "9600", "14400", "19200", "38400" });
+            cbBR.Location = new Point(79, 84);
+            cbBR.Margin = new Padding(3, 4, 3, 4);
+            cbBR.Name = "cbBR";
+            cbBR.Size = new Size(126, 28);
+            cbBR.TabIndex = 6;
+            cbBR.Text = "9600";
+            cbBR.SelectedIndexChanged += cbBR_SelectedIndexChanged;
             // 
             // cbCOM
             // 
-            this.cbCOM.FormattingEnabled = true;
-            this.cbCOM.Location = new System.Drawing.Point(69, 28);
-            this.cbCOM.Name = "cbCOM";
-            this.cbCOM.Size = new System.Drawing.Size(111, 23);
-            this.cbCOM.TabIndex = 5;
+            cbCOM.FormattingEnabled = true;
+            cbCOM.Location = new Point(79, 37);
+            cbCOM.Margin = new Padding(3, 4, 3, 4);
+            cbCOM.Name = "cbCOM";
+            cbCOM.Size = new Size(126, 28);
+            cbCOM.TabIndex = 5;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 168);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Parity Bits";
+            label5.AutoSize = true;
+            label5.Location = new Point(3, 224);
+            label5.Name = "label5";
+            label5.Size = new Size(73, 20);
+            label5.TabIndex = 4;
+            label5.Text = "Parity Bits";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 133);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Stop Bits";
+            label4.AutoSize = true;
+            label4.Location = new Point(3, 177);
+            label4.Name = "label4";
+            label4.Size = new Size(68, 20);
+            label4.TabIndex = 3;
+            label4.Text = "Stop Bits";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 98);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Data Bits";
+            label3.AutoSize = true;
+            label3.Location = new Point(3, 131);
+            label3.Name = "label3";
+            label3.Size = new Size(69, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Data Bits";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Baud Rate";
+            label2.AutoSize = true;
+            label2.Location = new Point(3, 84);
+            label2.Name = "label2";
+            label2.Size = new Size(77, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Baud Rate";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "COM Port";
+            label1.AutoSize = true;
+            label1.Location = new Point(3, 37);
+            label1.Name = "label1";
+            label1.Size = new Size(72, 20);
+            label1.TabIndex = 0;
+            label1.Text = "COM Port";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnClose);
-            this.groupBox2.Controls.Add(this.btnOpen);
-            this.groupBox2.Controls.Add(this.progressBar1);
-            this.groupBox2.Location = new System.Drawing.Point(9, 224);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(202, 80);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
+            groupBox2.Controls.Add(btnClose);
+            groupBox2.Controls.Add(btnOpen);
+            groupBox2.Controls.Add(progressBar1);
+            groupBox2.Location = new Point(12, 13);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(231, 107);
+            groupBox2.TabIndex = 1;
+            groupBox2.TabStop = false;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(113, 19);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(68, 23);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            btnClose.Location = new Point(129, 25);
+            btnClose.Margin = new Padding(3, 4, 3, 4);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(78, 31);
+            btnClose.TabIndex = 4;
+            btnClose.Text = "Close";
+            btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btnClose_Click;
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(6, 19);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(68, 23);
-            this.btnOpen.TabIndex = 3;
-            this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+            btnOpen.Location = new Point(7, 25);
+            btnOpen.Margin = new Padding(3, 4, 3, 4);
+            btnOpen.Name = "btnOpen";
+            btnOpen.Size = new Size(78, 31);
+            btnOpen.TabIndex = 3;
+            btnOpen.Text = "Open";
+            btnOpen.UseVisualStyleBackColor = true;
+            btnOpen.Click += btnOpen_Click;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(8, 48);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(174, 20);
-            this.progressBar1.TabIndex = 2;
+            progressBar1.Location = new Point(9, 64);
+            progressBar1.Margin = new Padding(3, 4, 3, 4);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(199, 27);
+            progressBar1.TabIndex = 2;
             // 
             // btnAnnuler
             // 
-            this.btnAnnuler.Location = new System.Drawing.Point(229, 272);
-            this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(74, 21);
-            this.btnAnnuler.TabIndex = 4;
-            this.btnAnnuler.Text = "Annuler";
-            this.btnAnnuler.UseVisualStyleBackColor = true;
-            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
+            btnAnnuler.Location = new Point(261, 221);
+            btnAnnuler.Margin = new Padding(3, 4, 3, 4);
+            btnAnnuler.Name = "btnAnnuler";
+            btnAnnuler.Size = new Size(85, 28);
+            btnAnnuler.TabIndex = 4;
+            btnAnnuler.Text = "Annuler";
+            btnAnnuler.UseVisualStyleBackColor = true;
+            btnAnnuler.Click += btnAnnuler_Click;
             // 
             // btnSuivant
             // 
-            this.btnSuivant.Location = new System.Drawing.Point(229, 245);
-            this.btnSuivant.Name = "btnSuivant";
-            this.btnSuivant.Size = new System.Drawing.Size(74, 21);
-            this.btnSuivant.TabIndex = 5;
-            this.btnSuivant.Text = "Suivant";
-            this.btnSuivant.UseVisualStyleBackColor = true;
-            this.btnSuivant.Click += new System.EventHandler(this.btnSuivant_Click);
+            btnSuivant.Location = new Point(261, 185);
+            btnSuivant.Margin = new Padding(3, 4, 3, 4);
+            btnSuivant.Name = "btnSuivant";
+            btnSuivant.Size = new Size(85, 28);
+            btnSuivant.TabIndex = 5;
+            btnSuivant.Text = "Suivant";
+            btnSuivant.UseVisualStyleBackColor = true;
+            btnSuivant.Click += btnSuivant_Click;
             // 
             // lblOnOff
             // 
-            this.lblOnOff.AutoSize = true;
-            this.lblOnOff.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblOnOff.Location = new System.Drawing.Point(240, 208);
-            this.lblOnOff.Name = "lblOnOff";
-            this.lblOnOff.Size = new System.Drawing.Size(43, 28);
-            this.lblOnOff.TabIndex = 6;
-            this.lblOnOff.Text = "Off";
+            lblOnOff.AutoSize = true;
+            lblOnOff.Font = new Font("MV Boli", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblOnOff.Location = new Point(273, 135);
+            lblOnOff.Name = "lblOnOff";
+            lblOnOff.Size = new Size(56, 34);
+            lblOnOff.TabIndex = 6;
+            lblOnOff.Text = "Off";
             // 
             // ConnPortCOM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(315, 317);
-            this.Controls.Add(this.lblOnOff);
-            this.Controls.Add(this.btnSuivant);
-            this.Controls.Add(this.btnAnnuler);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "ConnPortCOM";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Connexion PortCOM";
-            this.Load += new System.EventHandler(this.ConnPortCOM_Load);
-            this.Resize += new System.EventHandler(this.ConnPortCOM_Resize);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
-    }
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(360, 423);
+            Controls.Add(lblOnOff);
+            Controls.Add(btnSuivant);
+            Controls.Add(btnAnnuler);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "ConnPortCOM";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Connexion PortCOM";
+            Load += ConnPortCOM_Load;
+            Resize += ConnPortCOM_Resize;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
+        }
 
         #endregion
         private GroupBox groupBox1;
@@ -290,7 +285,7 @@
         private Label label5;
         private Label label4;
         private Label label3;
-        private Label label2; 
+        private Label label2;
         private Label label1;
         private GroupBox groupBox2;
         private ProgressBar progressBar1;

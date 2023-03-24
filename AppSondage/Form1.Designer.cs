@@ -88,9 +88,9 @@
             tbVotantD.BackColor = Color.FromArgb(232, 228, 230);
             tbVotantD.BorderStyle = BorderStyle.FixedSingle;
             tbVotantD.ForeColor = Color.FromArgb(0, 70, 67);
-            tbVotantD.Location = new Point(99, 24);
+            tbVotantD.Location = new Point(109, 24);
             tbVotantD.Name = "tbVotantD";
-            tbVotantD.Size = new Size(217, 30);
+            tbVotantD.Size = new Size(216, 30);
             tbVotantD.TabIndex = 0;
             // 
             // lblCode
@@ -99,7 +99,7 @@
             lblCode.AutoSize = true;
             lblCode.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
             lblCode.ForeColor = Color.FromArgb(0, 70, 67);
-            lblCode.Location = new Point(3, 24);
+            lblCode.Location = new Point(0, 24);
             lblCode.Name = "lblCode";
             lblCode.Size = new Size(100, 29);
             lblCode.TabIndex = 9;
@@ -109,10 +109,10 @@
             // 
             pbR2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pbR2.BackgroundImageLayout = ImageLayout.Stretch;
-            pbR2.Location = new Point(321, 21);
+            pbR2.Location = new Point(346, 18);
             pbR2.Margin = new Padding(2, 3, 2, 3);
             pbR2.Name = "pbR2";
-            pbR2.Size = new Size(99, 86);
+            pbR2.Size = new Size(86, 104);
             pbR2.SizeMode = PictureBoxSizeMode.StretchImage;
             pbR2.TabIndex = 4;
             pbR2.TabStop = false;
@@ -124,7 +124,7 @@
             lblquestion.BackColor = Color.Transparent;
             lblquestion.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblquestion.ForeColor = Color.FromArgb(171, 209, 198);
-            lblquestion.Location = new Point(1, 24);
+            lblquestion.Location = new Point(2, 18);
             lblquestion.Margin = new Padding(2, 0, 2, 0);
             lblquestion.Name = "lblquestion";
             lblquestion.Size = new Size(160, 36);
@@ -135,10 +135,10 @@
             // 
             pbR1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pbR1.BackgroundImageLayout = ImageLayout.Stretch;
-            pbR1.Location = new Point(333, 18);
+            pbR1.Location = new Point(346, 21);
             pbR1.Margin = new Padding(2, 3, 2, 3);
             pbR1.Name = "pbR1";
-            pbR1.Size = new Size(83, 86);
+            pbR1.Size = new Size(86, 104);
             pbR1.SizeMode = PictureBoxSizeMode.StretchImage;
             pbR1.TabIndex = 1;
             pbR1.TabStop = false;
@@ -162,9 +162,9 @@
             tbVotantG.BorderStyle = BorderStyle.FixedSingle;
             tbVotantG.Enabled = false;
             tbVotantG.ForeColor = Color.FromArgb(0, 70, 67);
-            tbVotantG.Location = new Point(92, 21);
+            tbVotantG.Location = new Point(109, 21);
             tbVotantG.Name = "tbVotantG";
-            tbVotantG.Size = new Size(236, 30);
+            tbVotantG.Size = new Size(216, 30);
             tbVotantG.TabIndex = 12;
             // 
             // PanelLeft
@@ -190,9 +190,9 @@
             pictureBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(203, 668);
+            pictureBox1.Location = new Point(177, 636);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(75, 66);
+            pictureBox1.Size = new Size(101, 98);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -212,9 +212,9 @@
             pictureBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBox2.BackgroundImage = Properties.Resources.logo_fmf_pnggd;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(12, 668);
+            pictureBox2.Location = new Point(12, 636);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(75, 66);
+            pictureBox2.Size = new Size(101, 98);
             pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
             // 
@@ -385,7 +385,7 @@
             pnlBotG.Controls.Add(tbChoixG);
             pnlBotG.Controls.Add(lblChoixG);
             pnlBotG.Controls.Add(pnlinBotG);
-            pnlBotG.Location = new Point(332, 500);
+            pnlBotG.Location = new Point(331, 500);
             pnlBotG.Name = "pnlBotG";
             pnlBotG.Size = new Size(495, 259);
             pnlBotG.TabIndex = 14;
@@ -396,9 +396,9 @@
             tbChoixG.BorderStyle = BorderStyle.FixedSingle;
             tbChoixG.Enabled = false;
             tbChoixG.ForeColor = Color.FromArgb(0, 70, 67);
-            tbChoixG.Location = new Point(140, 20);
+            tbChoixG.Location = new Point(157, 21);
             tbChoixG.Name = "tbChoixG";
-            tbChoixG.Size = new Size(214, 30);
+            tbChoixG.Size = new Size(303, 30);
             tbChoixG.TabIndex = 10;
             tbChoixG.TextAlign = HorizontalAlignment.Center;
             // 
@@ -422,10 +422,11 @@
             pnlinBotG.Controls.Add(label1);
             pnlinBotG.Controls.Add(pbR1);
             pnlinBotG.Controls.Add(label3);
-            pnlinBotG.Location = new Point(15, 73);
+            pnlinBotG.Location = new Point(15, 85);
             pnlinBotG.Name = "pnlinBotG";
-            pnlinBotG.Size = new Size(450, 126);
+            pnlinBotG.Size = new Size(450, 144);
             pnlinBotG.TabIndex = 8;
+            pnlinBotG.Paint += pnlinBotG_Paint;
             // 
             // tbNbVotantG
             // 
@@ -434,7 +435,7 @@
             tbNbVotantG.BorderStyle = BorderStyle.FixedSingle;
             tbNbVotantG.Enabled = false;
             tbNbVotantG.ForeColor = Color.FromArgb(0, 70, 67);
-            tbNbVotantG.Location = new Point(261, 74);
+            tbNbVotantG.Location = new Point(271, 74);
             tbNbVotantG.Name = "tbNbVotantG";
             tbNbVotantG.Size = new Size(54, 30);
             tbNbVotantG.TabIndex = 11;
@@ -475,7 +476,7 @@
             pnlBotD.Controls.Add(pnlinBotD);
             pnlBotD.Location = new Point(833, 500);
             pnlBotD.Name = "pnlBotD";
-            pnlBotD.Size = new Size(485, 259);
+            pnlBotD.Size = new Size(495, 259);
             pnlBotD.TabIndex = 15;
             // 
             // tbChoixD
@@ -484,9 +485,9 @@
             tbChoixD.BorderStyle = BorderStyle.FixedSingle;
             tbChoixD.Enabled = false;
             tbChoixD.ForeColor = Color.FromArgb(0, 70, 67);
-            tbChoixD.Location = new Point(140, 20);
+            tbChoixD.Location = new Point(157, 21);
             tbChoixD.Name = "tbChoixD";
-            tbChoixD.Size = new Size(217, 30);
+            tbChoixD.Size = new Size(303, 30);
             tbChoixD.TabIndex = 12;
             tbChoixD.TextAlign = HorizontalAlignment.Center;
             tbChoixD.TextChanged += tbChoixD_TextChanged;
@@ -511,10 +512,11 @@
             pnlinBotD.Controls.Add(pbR2);
             pnlinBotD.Controls.Add(tbVotantD);
             pnlinBotD.Controls.Add(lblCode);
-            pnlinBotD.Location = new Point(19, 73);
+            pnlinBotD.Location = new Point(15, 85);
             pnlinBotD.Name = "pnlinBotD";
-            pnlinBotD.Size = new Size(451, 126);
+            pnlinBotD.Size = new Size(450, 144);
             pnlinBotD.TabIndex = 7;
+            pnlinBotD.Paint += pnlinBotD_Paint;
             // 
             // label2
             // 
@@ -523,7 +525,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(0, 70, 67);
-            label2.Location = new Point(0, 75);
+            label2.Location = new Point(4, 75);
             label2.Name = "label2";
             label2.Size = new Size(251, 29);
             label2.TabIndex = 10;
@@ -536,9 +538,9 @@
             tbNbVotantD.BorderStyle = BorderStyle.FixedSingle;
             tbNbVotantD.Enabled = false;
             tbNbVotantD.ForeColor = Color.FromArgb(0, 70, 67);
-            tbNbVotantD.Location = new Point(251, 74);
+            tbNbVotantD.Location = new Point(271, 74);
             tbNbVotantD.Name = "tbNbVotantD";
-            tbNbVotantD.Size = new Size(65, 30);
+            tbNbVotantD.Size = new Size(54, 30);
             tbNbVotantD.TabIndex = 6;
             tbNbVotantD.Text = "0";
             tbNbVotantD.TextAlign = HorizontalAlignment.Center;
@@ -551,7 +553,7 @@
             pnlTop.Controls.Add(lblquestion);
             pnlTop.Location = new Point(331, 12);
             pnlTop.Name = "pnlTop";
-            pnlTop.Size = new Size(987, 84);
+            pnlTop.Size = new Size(997, 74);
             pnlTop.TabIndex = 16;
             pnlTop.Paint += pnlTop_Paint;
             // 
@@ -563,10 +565,10 @@
             tbQuestion.Enabled = false;
             tbQuestion.Font = new Font("Bahnschrift SemiLight", 20F, FontStyle.Regular, GraphicsUnit.Point);
             tbQuestion.ForeColor = Color.FromArgb(0, 70, 67);
-            tbQuestion.Location = new Point(143, 17);
+            tbQuestion.Location = new Point(155, 18);
             tbQuestion.Multiline = true;
             tbQuestion.Name = "tbQuestion";
-            tbQuestion.Size = new Size(829, 43);
+            tbQuestion.Size = new Size(827, 42);
             tbQuestion.TabIndex = 1;
             tbQuestion.TextAlign = HorizontalAlignment.Center;
             tbQuestion.TextChanged += tbQuestion_TextChanged;
@@ -585,12 +587,13 @@
             Controls.Add(pictureBox3);
             DoubleBuffered = true;
             Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sondage";
+            WindowState = FormWindowState.Maximized;
             FormClosed += Form1_FormClosed;
             Load += Form1_Load;
             Resize += Form1_Resize;
@@ -627,7 +630,6 @@
         private Label label3;
         private TextBox tbVotantG;
         private Panel PanelLeft;
-        public EllipseControl ellipsePanelLeft;
         private Label lblDate;
         private Panel pnlDateTime;
         private TextBox tbDateEnd;
@@ -638,12 +640,9 @@
         private Panel pnlStat;
         private PictureBox pictureBox2;
         private Panel pnlBotG;
-        private EllipseControl ellipsePnlBotG;
         private Panel pnlBotD;
-        private EllipseControl ellipsePnlBotD;
         private Label lblInfo;
         private Panel pnlTop;
-        private EllipseControl ellipseTop;
         private Label lblTotalCount;
         private Panel pnlinBotG;
         private Panel pnlinBotD;
