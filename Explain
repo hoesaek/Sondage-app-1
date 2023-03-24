@@ -1,0 +1,31 @@
+Le principe est de proposer un vote/sondage avec deux réponses possibles. Deux fentes
+sont disponibles, les fumeurs glissent leur mégot dans la fente correspondant à leur vote.
+Dans le cadre du projet, le thème du sondage ainsi que les résultats seront affichés sur un
+écran. Les fentes pour voter seront remplacées par des lecteurs de code barre. Les
+utilisateurs voteront en scannant le code barre de leur pass région, ce qui garanti l’unicité 
+du vote et est également conforme à la RGPD puisque aucune donnée personnelle n’est
+utilisée.
+Un logiciel avec interface graphique permettra de créer un sondage. Une page web sera
+accessible depuis l’ENT du lycée afin de visionner les résultats du sondage en cours et des
+sondages précédents. Une base de données permettra de stocker l’ensemble des données
+nécessaires au fonctionnement du système (sondages, codes barres scannés,…).
+Le projet sera accessible à tous au bâtiment H du lycée F. Mauriac et permettra donc de
+promouvoir le travail des étudiants de BTS SN.
+
+Expression du besoin :
+Application d’affichage et de gestion des votes :
+L’application devra présenter une question et ses deux réponses possibles chargées depuis
+la base de données. Elle pourra également présenter une image pour chacun des deux choix
+possibles. Le nombre de votes obtenus pour chacune des deux options ainsi que le nombre
+total de votants seront présentés.
+Les deux lecteurs de code barre permettront de choisir une des deux options. Lors du scan
+d’un code barre, le code correspondant sera stocké en base de données accompagné de
+l’option choisie et l’affichage sera mis à jour. Si le code barre a déjà été scanné, un message
+d’erreur sera affiché.
+
+Etudiant E1
+Conception et réalisation de l’application d’affichage :
+ Réalisation de l’IHM
+ communication avec la base de donnée
+ Interfaçage des lecteurs de code barre
+Tests unitaires et tests d’intégration
