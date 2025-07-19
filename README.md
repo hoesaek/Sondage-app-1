@@ -17,7 +17,7 @@ Ce projet est une application de sondage développée en **C#**. Elle permet aux
 - **Graphiques** : Utilisation de bibliothèques pour l'affichage des résultats sous forme de graphiques.
 
 ## Structure du Projet
-
+```bash
 Sondage-app-1/
 ├── AppSondage/           # Logique métier de l'application
 ├── Diagrammes/           # Diagrammes de conception
@@ -25,7 +25,7 @@ Sondage-app-1/
 ├── Attente/              # Fonctionnalités en attente de développement
 ├── docxRevue2.docx       # Document de revue
 └── pptRevue2.pptx        # Présentation PowerPoint de la revue
-
+```
 
 ## Installation
 
