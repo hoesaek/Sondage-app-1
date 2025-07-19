@@ -34,7 +34,7 @@ Sondage-app-1/
    ```bash
    git clone https://github.com/hoesaek/Sondage-app-1.git
    cd Sondage-app-1
-  ````
+   ```
 
 2. Ouvrez le projet dans **Visual Studio**.
 
@@ -48,4 +48,3 @@ Sondage-app-1/
 
 Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT).
 
-```
